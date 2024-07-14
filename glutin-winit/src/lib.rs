@@ -8,7 +8,7 @@
 #![deny(missing_docs)]
 #![cfg_attr(clippy, deny(warnings))]
 
-mod event_loop;
+pub mod event_loop;
 mod window;
 
 use event_loop::GlutinEventLoop;
